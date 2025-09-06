@@ -374,27 +374,35 @@ body{
     list-style-type: none ;
   }
 }
-footer{
+.footer {
   background: #333;
-  padding: 40px 20px;
-  display: flex;
-  justify-content: center;
-  gap: 4rem;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.footer-links {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  font-size: 1.6rem;
+  text-decoration: none;
+  margin: 0 2px;
+  color: #fff;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.footer-links a:hover {
+  color: #dadad3; 
 }
 .sponsor{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .sponsor img{
-  max-width: 100%;
-  height: 50px;
-}
-.sponsor p{
-  color: whitesmoke;
-  font-style: italic;
-}
-.sponsor .caleb{
-  height: 200px;
-}
-.social-links img{
-  max-width: 100%;
-  max-height: 40px;
+  height: 40px;
 }
